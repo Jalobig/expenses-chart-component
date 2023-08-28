@@ -1,0 +1,26 @@
+:root {
+// // Colors
+
+/// Primary
+
+--color-primary: hsl(10, 79%, 65%);
+--color-accent: hsl(186, 34%, 60%);
+
+/// Neutral
+
+--color-brown-dark: hsl(25, 47%, 15%);
+--color-brown: hsl(28, 10%, 53%);
+--color-bg: hsl(27, 66%, 92%);
+--color-white: hsl(33, 100%, 98%);
+--color-white-hover: hsla(30, 100%, 98%, 0.3);
+}
+*,*::after,*::before{
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'DM Sans', sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-brown-dark);
+}

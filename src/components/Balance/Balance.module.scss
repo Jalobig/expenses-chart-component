@@ -1,0 +1,49 @@
+@keyframes fade-in-top {
+    0%{
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+
+    }
+}
+.balance {
+    animation: fade-in-top .6s .3s backwards;
+    background-color: var(--color-primary);
+    border-radius: 1rem;
+    color: var(--color-white);
+    padding: 1.875rem;
+    margin-bottom: 1.25rem;
+    @media only screen and (max-width:450px) {
+     padding: 1rem;                   
+    }
+    &__row{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__heading{
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: .7rem;
+        @media only screen and (max-width:450px) {
+            font-size: .9rem;
+            margin-bottom: .5rem;
+            
+        }
+    }
+    
+    &__amount{
+        font-size: 2rem;
+        font-weight: 700;
+        @media only screen and (max-width:450px) {
+            font-size: 1.5rem;
+        }
+    }
+    &__logo{
+        @media only screen and (max-width:450px) {
+         width: 3rem;               
+        }
+    }
+}

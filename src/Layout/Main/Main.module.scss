@@ -1,0 +1,8 @@
+.main {
+    max-width: 33.75rem;
+    margin: 11.25rem auto;
+    @media only screen and (max-width:450px) {
+        max-width: 90%;
+        
+    }
+}
